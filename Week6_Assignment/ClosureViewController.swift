@@ -9,10 +9,19 @@ import UIKit
 
 class ClosureViewController: UIViewController {
     
+    @IBOutlet weak var cardView: CardView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        //속성적용시 cardView가 앞에 더 붙지만 카드뷰를 뷰컨트롤러, 테이블, 콜렉션뷰에서 다쓸 수 있다면 자유도 그만큼 늘어났다고 할 수 있다.
+        cardView.posterImageView.backgroundColor = .red //posterImageView에 nil에러 뜨는이유?
+        cardView.likeButton.backgroundColor = .yellow
+        cardView.likeButton.addTarget(self, action: #selector(likeButtonClicked), for: .touchUpInside)
+    }
+    
+    @objc func likeButtonClicked() {
+     print("버튼클릭")
     }
     
     @IBAction func colorPickerButtonClicked(_ sender: UIButton) {
