@@ -26,6 +26,8 @@
 		985FE99F28D618E50069FA6D /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 985FE99E28D618E50069FA6D /* SwiftyJSON */; };
 		985FE9A128D622780069FA6D /* KakaoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985FE9A028D622780069FA6D /* KakaoAPIManager.swift */; };
 		985FE9A328D624F80069FA6D /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985FE9A228D624F80069FA6D /* ClosureViewController.swift */; };
+		98805CA728DB062C0077A241 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98805CA628DB062C0077A241 /* ReusableViewProtocol.swift */; };
+		98805CA928DB24D30077A241 /* TMDBAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98805CA828DB24D30077A241 /* TMDBAPIManager.swift */; };
 		98E383F828D971590071A26E /* SeSACButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E383F728D971590071A26E /* SeSACButton.swift */; };
 		98E383FA28D9778C0071A26E /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98E383F928D9778C0071A26E /* CardView.xib */; };
 		98E383FC28D977BF0071A26E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E383FB28D977BF0071A26E /* CardView.swift */; };
@@ -50,6 +52,8 @@
 		985FE99528D6124B0069FA6D /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 		985FE9A028D622780069FA6D /* KakaoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAPIManager.swift; sourceTree = "<group>"; };
 		985FE9A228D624F80069FA6D /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
+		98805CA628DB062C0077A241 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		98805CA828DB24D30077A241 /* TMDBAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAPIManager.swift; sourceTree = "<group>"; };
 		98E383F728D971590071A26E /* SeSACButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACButton.swift; sourceTree = "<group>"; };
 		98E383F928D9778C0071A26E /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 		98E383FB28D977BF0071A26E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 		985FE97628D5F7A50069FA6D /* Week6_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				98805CA528DB05DD0077A241 /* Protocol */,
 				98E383F628D971290071A26E /* View */,
 				985FE99228D5FC130069FA6D /* Network */,
 				985FE97728D5F7A50069FA6D /* AppDelegate.swift */,
@@ -111,8 +116,17 @@
 				985FE99328D5FC5E0069FA6D /* EndPoint.swift */,
 				985FE99528D6124B0069FA6D /* URL+Extension.swift */,
 				985FE9A028D622780069FA6D /* KakaoAPIManager.swift */,
+				98805CA828DB24D30077A241 /* TMDBAPIManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		98805CA528DB05DD0077A241 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				98805CA628DB062C0077A241 /* ReusableViewProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		98E383F628D971290071A26E /* View */ = {
@@ -223,7 +237,9 @@
 				985FE99128D5F8160069FA6D /* APIKey.swift in Sources */,
 				98E383F828D971590071A26E /* SeSACButton.swift in Sources */,
 				985FE9A128D622780069FA6D /* KakaoAPIManager.swift in Sources */,
+				98805CA728DB062C0077A241 /* ReusableViewProtocol.swift in Sources */,
 				985FE97A28D5F7A50069FA6D /* SceneDelegate.swift in Sources */,
+				98805CA928DB24D30077A241 /* TMDBAPIManager.swift in Sources */,
 				985FE99628D6124B0069FA6D /* URL+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

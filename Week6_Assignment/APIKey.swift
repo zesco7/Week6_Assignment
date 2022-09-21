@@ -12,6 +12,8 @@ import Foundation
  -. enum일때 중복값 생성 피하기 위해 case보다 static사용 권장(case는 중복가능하기때문
  -. APIKey를 다른 컴퓨터에서 작업할때 property list로 API Configuration 만들어 사용하는 편(코드흐름은 유지한채 키만 추출할 수 있음)
  */
-enum APIKey {
+struct APIKey {
     static let kakao = "1ce91d9049e5547a9ff92ffb1f900f99"
+    static let tmdb = "9a2ad201c752108bc7ef6648ba28b7ef"
+    private init() { }
 }

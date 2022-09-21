@@ -36,7 +36,7 @@ class CardView: UIView {
         
         let view = UINib(nibName: "CardView", bundle: nil).instantiate(withOwner: self).first as! UIView //first는 xib파일안에 뷰 중 어떤 뷰를 쓸지 지정하는 의미
         view.frame = bounds
-        view.backgroundColor = .lightGray
+        view.backgroundColor = .black
         self.addSubview(view) //CardView파일에 view를 추가해달라는 의미
     }
 }

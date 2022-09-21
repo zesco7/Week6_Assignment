@@ -34,7 +34,7 @@
             <connections>
                 <outlet property="cardView" destination="rGG-sH-ME1" id="AKG-M7-QRF"/>
             </connections>
-            <point key="canvasLocation" x="-32.608695652173914" y="147.32142857142856"/>
+            <point key="canvasLocation" x="-32.608695652173914" y="146.65178571428569"/>
         </collectionViewCell>
     </objects>
     <resources>
