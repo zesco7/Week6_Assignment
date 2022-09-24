@@ -15,5 +15,7 @@ import Foundation
 struct APIKey {
     static let kakao = "1ce91d9049e5547a9ff92ffb1f900f99"
     static let tmdb = "9a2ad201c752108bc7ef6648ba28b7ef"
+    static let naverID = "tfYqqDDQUPRUW3CIm5x4"
+    static let naverSecret = "NAoG26YRAW"
     private init() { }
 }
